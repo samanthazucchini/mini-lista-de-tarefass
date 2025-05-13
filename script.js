@@ -2,7 +2,7 @@ let tarefas = [
     { id: 1, texto: "Beber água", concluida: false },
     { id: 2, texto: "Fazer exercício", concluida: false },
     { id: 4, texto: "Meditar 5 minutos", concluida: false },
-    { id: 5, texto: "Estudar pra pré-selção de inglês", concluida: false },
+    { id: 5, texto: "Estudar pra pré-seleção de inglês", concluida: false },
     { id: 6, texto: "Estudar pra prova de química", concluida: false },
     { id: 7, texto: "Sacar dinheiro no banco", concluida: false },
     { id: 8, texto: "Ver as coisas do meu aniversário (14/05)", concluida: false }    
