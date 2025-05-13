@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lista de Tarefas</title>
+  <link rel="stylesheet" href="estilo.css" />
+</head>
+<body>
+  <div class="container">
+    <img class="flor-esquerda" src="https://png.pngtree.com/png-clipart/20221231/original/pngtree-beauty-care-vector-logo-in-a-minimalist-vintage-style-lotus-flower-png-image_8837517.png" alt="Flor esquerda">
+    <img class="flor-direita" src="https://png.pngtree.com/png-clipart/20221231/original/pngtree-beauty-care-vector-logo-in-a-minimalist-vintage-style-lotus-flower-png-image_8837517.png" alt="Flor direita">
+
+    <div class="titulo-com-icone">
+      <h1>Minhas Tarefas</h1>
+      <img src="https://cdn-icons-png.flaticon.com/512/66/66936.png" class="icone-lista" alt="Ícone de lista">
+    </div>
+
+    <div class="view-input">
+      <input type="text" id="nova-tarefa" placeholder="Digite uma tarefa..." />
+      <button class="botao-flutuante espacamento-botao" onclick="adicionarTarefa()">+</button>
+    </div>
+
+    <div class="botoes">
+      <button onclick="filtrar('todas')">Todas</button>
+      <button onclick="filtrar('pendentes')">Pendentes</button>
+      <button onclick="filtrar('concluidas')">Concluídas</button>
+    </div>
+
+    <ul id="lista-tarefas"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

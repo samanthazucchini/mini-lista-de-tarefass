@@ -1,0 +1,128 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdf6ff;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 400px;
+  margin: auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #ccc;
+  position: relative;
+}
+
+.titulo-com-icone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.icone-lista {
+  width: 26px;
+  height: 26px;
+}
+
+.flor-esquerda,
+.flor-direita {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: -25px;
+  opacity: 0.8;
+}
+
+.flor-esquerda {
+  left: -20px;
+  transform: rotate(20deg);
+}
+
+.flor-direita {
+  right: -20px;
+  transform: rotate(-20deg);
+}
+
+.view-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #f8f3f9;
+  padding: 10px;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.view-input input {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #c8b0e3;
+  border-radius: 12px;
+  font-size: 16px;
+  color: #5a4c74;
+}
+
+.botoes {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.botoes button {
+  background-color: #e3d5f5;
+  border: none;
+  padding: 10px 15px;
+  margin: 0 1px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #4d3b64;
+  font-weight: bold;
+}
+
+.botoes button:hover {
+  background-color: #c6aef0; 
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f9f9f9;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+li.concluida {
+  text-decoration: line-through;
+  color: #888;
+  background-color: #e0e0e0;
+}
+
+.botao-flutuante {
+  background-color: #d7b7fb;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 50%;
+  font-size: 32px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.botao-flutuante:hover {
+  background-color: #bf9aef;
+
+}
+
+.espacamento-botao {
+  margin-left: 10px;
+}
